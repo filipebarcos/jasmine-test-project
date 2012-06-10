@@ -1,13 +1,16 @@
-describe("Fibonacci", function() {
+describe("Calculator", function() {
 
-	var fibonacci;
+	var calculator;
 
 	beforeEach(function() {
-		fibonacci = new Fibonacci();
+		calculator = new Calculator();
 	});
 
 	it("should calculate 5th fibonacci sequence number", function () {
-		expect(fibonacci.execute(5)).toBe(5);
+		expect(calculator.fibonacci(5)).toBe(5);
 	});
 
+	it("should calculate factorial of 5", function() {
+		expect(calculator.factorial(5)).toBe(120)
+	});
 });
