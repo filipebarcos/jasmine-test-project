@@ -1,0 +1,16 @@
+Fibonacci Sequence
+
+0, 1, 1, 2, 3, 5, 8, 13, ...
+
+First two values are 0 and 1, and then on, next values are formed by sum of last two numbers of sequence
+value = (value - 1) + (value - 2)
+
+Factorial
+
+0! = 1
+1! = 1
+2! = 1 * 2 = 2
+3! = 1 * 2 * 3 = 6
+4! = 1 * 2 * 3 * 4 = 24
+5! = 1 * 2 * 3 * 4 * 5 = 120
+...
